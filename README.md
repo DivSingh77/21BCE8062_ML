@@ -132,3 +132,6 @@ document-retrieval-system/
 ├── .env                    # Environment variables
 └── README.md               # Project documentation
 ```
+
+## Notes
+- add your own OpenAi api key in app.py
