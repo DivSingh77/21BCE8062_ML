@@ -21,7 +21,7 @@ RATE_LIMIT = int(os.getenv('RATE_LIMIT', 5))
 CACHE_EXPIRATION = int(os.getenv('CACHE_EXPIRATION', 3600))  # 1 hour
 
 # Initialize Chroma
-embeddings = OpenAIEmbeddings(openai_api_key="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")
+embeddings = OpenAIEmbeddings(openai_api_key='OPENAI_API_KEY')
 vectorstore = Chroma(CHROMA_PERSIST_DIRECTORY, embeddings)
 
 # Initialize text splitter
