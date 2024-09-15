@@ -1,0 +1,7 @@
+flask
+langchain
+chromadb
+beautifulsoup4
+requests
+python-dotenv
+langchain-community
